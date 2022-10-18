@@ -1,0 +1,151 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.main {
+  background: url(images/main.jpg);
+  size: cover;
+  height: 500px;
+  padding-top: 100px;
+  text-shadow: 0 0 5px white;
+}
+
+.acti-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.activities {
+  width: 80%;
+  margin: 50px auto 100px auto;
+}
+
+.activities h2 {
+  text-shadow: 0 0 2px gray;
+}
+
+.activities-item {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.actione,
+.actitwo,
+.actithree {
+  width: 250px;
+  box-shadow: 0 0 10px gray;
+  padding: 25px;
+}
+
+.kisho {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 900px;
+  height: 500px;
+  margin: 50px auto 0 auto;
+}
+
+.guide {
+  padding-top: 200px;
+  background: linear-gradient(#caf0f8, #48cae4);
+}
+
+.guide h2 {
+  text-shadow: 0 0 2px white;
+}
+
+.kisho img {
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+
+  box-shadow: 0 0 10px gray;
+}
+
+.kisho-info {
+  width: 300px;
+  text-shadow: 0 0 2px white;
+}
+
+@media (max-width: 420px) {
+  body {
+    text-align: center;
+    margin: 0;
+    font-family: "Merriweather Sans", sans-serif;
+  }
+
+  .main {
+    background: url(images/main.jpg);
+    size: cover;
+    height: 200px;
+    padding-top: 100px;
+    text-shadow: 0 0 5px white;
+  }
+
+  .acti-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .activities {
+    width: 80%;
+    margin: 50px auto 100px auto;
+  }
+  .activities h2 {
+    text-shadow: 0 0 2px gray;
+  }
+
+  .activities-item {
+    margin-top: 100px;
+    display: block;
+  }
+
+  .actione,
+  .actitwo,
+  .actithree {
+    width: 250px;
+    box-shadow: 0 0 10px gray;
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+
+  .kisho {
+    display: block;
+    width: 400px;
+    height: 500px;
+
+    margin: 50px auto 0 auto;
+  }
+
+  .guide {
+    padding-top: 200px;
+    background: linear-gradient(#caf0f8, #48cae4);
+  }
+
+  .guide h2 {
+    text-shadow: 0 0 2px white;
+    width: 250px;
+    margin: auto;
+  }
+
+  .kisho img {
+    width: 150px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+    margin-top: 50px;
+  }
+
+  .kisho-info {
+    width: 300px;
+    text-shadow: 0 0 2px white;
+    margin: auto;
+    padding-top: 50px;
+  }
+}
